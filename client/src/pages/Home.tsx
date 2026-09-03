@@ -61,7 +61,7 @@ export default function Home() {
                 {processSteps.map((step) => <div className="note-item" key={step.number}><span className="note-item-number">{step.number}</span><div><h3>{step.title}</h3><p>{step.body}</p></div></div>)}
               </div>
             </div>
-            <div className="about-pull" style={{ alignSelf: "end", background: "var(--orange)", boxShadow: "9px 9px 0 rgba(255,253,248,.18)" }}>
+            <div className="about-pull" style={{ alignSelf: "end", background: "var(--orange)", boxShadow: "9px 9px 0 rgba(243,243,240,.18)" }}>
               <MapPin size={25} strokeWidth={1.8} />
               <strong style={{ marginTop: 18 }}>Local by design.</strong>
               <p>We keep the conversation close to the job. That means better context, a cleaner plan, and fewer surprises when the truck arrives.</p>

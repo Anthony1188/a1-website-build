@@ -25,7 +25,7 @@ export function SiteFooter() {
             <p className="footer-heading">Start the conversation</p>
             <a href="tel:+15550101401"><Phone size={16} /> (555) 010-1401</a>
             <span>Call or text with the basics. We will help you choose the cleanest next step.</span>
-            <Link href="/contact" className="text-link" style={{ color: "#f4b08f" }}>Tell us what needs hauling <ArrowUpRight size={16} /></Link>
+            <Link href="/contact" className="text-link" style={{ color: "var(--a1-red)" }}>Tell us what needs hauling <ArrowUpRight size={16} /></Link>
           </div>
         </div>
         <div className="footer-bottom">
