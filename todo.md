@@ -20,3 +20,10 @@
 - [ ] Apply the industrial system to the existing site footer.
 - [ ] Apply the industrial system to the existing homepage hero.
 - [ ] Verify desktop/mobile rendering and production build after the focused pass.
+
+## Supplied Logo Replacement
+
+- [ ] Copy the user-provided A1 Services logo into the managed static-assets directory.
+- [ ] Upload the supplied logo and replace the shared logo asset reference.
+- [ ] Preserve the full-logo aspect ratio in header, footer, and favicon usage.
+- [ ] Verify desktop and mobile header/footer display and run the production build.

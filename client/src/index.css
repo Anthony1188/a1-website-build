@@ -80,6 +80,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .brand-lockup strong { display: block; font-family: "Barlow Condensed", sans-serif; font-size: 1.45rem; font-weight: 800; letter-spacing: .08em; line-height: .82; }
 .brand-lockup small { display: block; margin-top: 1px; font-family: "IBM Plex Sans", sans-serif; font-size: .5rem; font-weight: 800; letter-spacing: .08em; line-height: 1.2; color: var(--muted-metallic); text-transform: uppercase; }
 .brand-mark { width: 42px; height: 42px; object-fit: contain; padding: 6px; background: var(--a1-red); border: 1px solid var(--off-white); }
+.brand-mark--full { width: 154px; height: 74px; padding: 0; object-fit: contain; object-position: left center; background: transparent; border: 0; }
+.brand-mark--full + .brand-lockup { display: none; }
 .nav-links { display: flex; align-items: center; gap: clamp(16px, 2.6vw, 34px); margin-left: auto; }
 .nav-link { position: relative; font-size: .79rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted-metallic); }
 .nav-link::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -8px; height: 2px; background: var(--orange); transition: right 180ms var(--ease-out); }
@@ -239,7 +241,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 
 .site-footer { padding: 68px 0 24px; color: var(--off-white); background: var(--deep-charcoal); border-top: 1px solid var(--steel); }
 .footer-grid { display: grid; grid-template-columns: 1.1fr .55fr .75fr; gap: 48px; padding-bottom: 58px; }
-.footer-brand .brand { color: var(--white); }
+.footer-brand .brand { color: var(--white); align-items: flex-start; }
+.footer-brand .brand-mark--full { width: 214px; height: 136px; }
 .footer-brand .brand-lockup small { color: rgba(243,243,240,.55); }
 .footer-copy { max-width: 330px; margin: 20px 0 0; color: rgba(243,243,240,.68); font-size: .9rem; line-height: 1.65; }
 .footer-heading { margin: 0 0 17px; color: var(--muted-metallic); font-size: .67rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
@@ -271,6 +274,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .inner { width: min(100% - 28px, 1240px); }
   .section { padding: 74px 0; }
   .header-row { min-height: 72px; }
+  .brand-mark--full { width: 132px; height: 62px; }
   .nav-links, .header-actions { display: none; }
   .mobile-toggle { display: inline-flex; }
   .mobile-nav { display: grid; gap: 4px; padding: 12px 0 18px; border-top: 1px solid var(--line); }
@@ -315,6 +319,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .values { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px 22px; }
   .footer-brand { grid-column: 1 / -1; }
+  .footer-brand .brand-mark--full { width: 176px; height: 112px; }
   .footer-bottom { display: block; }
   .footer-bottom span { display: block; margin-top: 8px; }
 }

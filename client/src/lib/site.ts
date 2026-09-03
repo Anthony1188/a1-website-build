@@ -1,4 +1,4 @@
-// Field Notes / Modern Workwear: shared content uses direct, practical labels and tactile job-site imagery.
+// Premium Industrial A1 system: shared content preserves direct service labels and managed field imagery.
 
 export const images = {
   hero: "/manus-storage/a1-hero-hauling_50ce2fc7.png",
@@ -7,7 +7,7 @@ export const images = {
   skidSteer: "/manus-storage/service-skid-steer_ae4ee644.png",
   aboutCrew: "/manus-storage/about-crew_65009844.png",
   sourceHero: "/manus-storage/hero-dumpster-delivery_ef3a4f38.png",
-  mark: "/manus-storage/a1-mark_1654f844.png",
+  mark: "/manus-storage/a1-services-logo-proper_a92c1df1.png",
 } as const
 
 export const navLinks = [

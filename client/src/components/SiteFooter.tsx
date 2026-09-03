@@ -1,4 +1,4 @@
-// Field Notes / Modern Workwear: the footer closes with direct contact paths and compact field-guide metadata.
+// Premium Industrial A1 system: the footer keeps direct contact paths and the full supplied brand mark.
 import { ArrowUpRight, Phone } from "lucide-react"
 import { Link } from "wouter"
 import { footerLinks, images } from "@/lib/site"
@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link href="/" className="brand" aria-label="A1 Services home">
-              <img className="brand-mark" src={images.mark} alt="" />
+              <img className="brand-mark brand-mark--full" src={images.mark} alt="A1 Services" />
               <span className="brand-lockup"><strong>A1</strong><small>Services · Local hauling</small></span>
             </Link>
             <p className="footer-copy">The straightforward cleanup crew for homeowners, contractors, and property managers who need the job cleared without the runaround.</p>

@@ -1,4 +1,4 @@
-// Field Notes / Modern Workwear: navigation is compact, practical, and marked by orange route accents.
+// Premium Industrial A1 system: navigation preserves the existing routes while using the supplied full brand mark.
 import { Menu, Phone, X } from "lucide-react"
 import { Link, useLocation } from "wouter"
 import { navLinks, images } from "@/lib/site"
@@ -15,7 +15,7 @@ export function SiteHeader() {
       <div className="inner">
         <div className="header-row">
           <Link href="/" className="brand" aria-label="A1 Services home" onClick={() => setOpen(false)}>
-            <img className="brand-mark" src={images.mark} alt="" />
+            <img className="brand-mark brand-mark--full" src={images.mark} alt="A1 Services" />
             <span className="brand-lockup"><strong>A1</strong><small>Services · Local hauling</small></span>
           </Link>
 
